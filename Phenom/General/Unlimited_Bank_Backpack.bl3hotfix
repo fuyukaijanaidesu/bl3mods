@@ -30,8 +30,8 @@
 
 # Unlimited backpack space
 # Modify the base backpack space from 16 to unlimited
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/Character/BPChar_Player.BPChar_Player_C:InventoryList_GEN_VARIABLE,MaxInventoryItems,0,,(BaseValue=-100)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/Character/BPChar_Player.BPChar_Player_C:InventoryList_GEN_VARIABLE,MaxInventoryItems,0,,(BaseValue=50)
 
 # Unlimited bank space
 # Modify the Bank SDU Lv1 from 5 to unlimited
-SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_Bank.Table_SDU_Bank,Lv1,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Character/Att_PlayerBankMax.Att_PlayerBankMax"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=-1000)
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_Bank.Table_SDU_Bank,Lv1,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Character/Att_PlayerBankMax.Att_PlayerBankMax"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=1500)
